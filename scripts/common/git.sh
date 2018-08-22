@@ -16,7 +16,7 @@ cp files/.pairs ~/.pairs
 
 echo
 echo "Setting global Git configurations"
-git config --global core.editor /usr/bin/vim
+git config --global core.editor /usr/local/bin/nvim
 git config --global transfer.fsckobjects true
 
 HOOKS_DIRECTORY=$HOME/workspace/git-hooks-core
